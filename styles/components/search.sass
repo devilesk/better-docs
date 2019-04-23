@@ -1,0 +1,54 @@
+.search-container
+    position: relative;
+    min-width: 400px;
+
+.search-container input
+    padding: 7px;
+    width: 100%;
+    border: 1px solid $border;
+    border-radius: 2px;
+
+.search-container a
+    color: #fff;
+
+.search-container strong
+    color: pink;
+    font-weight: normal;
+
+.search-container ul
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    background-color: $black;
+    border: 1px solid #1f292e;
+    border-radius: 0 0 2px 2px;
+
+.search-container ul li
+    text-align: left;
+    width: 100%;
+    padding: 4px 0 4px 7px;
+    overflow: hidden;
+    border: 0;
+    cursor: pointer;
+
+.search-container ul li:hover,
+.search-container ul li.highlight
+    background-color: #fff;
+
+.search-container ul li:hover a,
+.search-container ul li.highlight a
+    color: #1f292e !important;
+    text-decoration: underline;
+
+.search-container ul li:hover strong,
+.search-container ul li.highlight strong
+    color: #ff4141;
+
+.search-container ul li .group
+    font-size: 11px;
+    color: #ccc;
+    margin-left: 10px;
+
+.search-container ul li:hover .group,
+.search-container ul li.highlight .group
+    color: #777;
